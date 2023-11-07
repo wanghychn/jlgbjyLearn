@@ -1,2 +1,2 @@
 # jlgbjyLearn
-Jilin Public officials network College course tools
+Jilin Cadre Network College Course Tools
