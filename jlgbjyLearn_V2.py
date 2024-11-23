@@ -75,7 +75,7 @@ def learn(driver):
         ttttt = int(driver.find_element_by_css_selector('#right > div.content > div > div:nth-child(6) > table > tbody > tr:nth-child(2) > td:nth-child(6)').text[:-2])
         learn_width = driver.find_element_by_css_selector("#right > div.content > div > div:nth-child(6) > table > tbody > tr:nth-child(2) > td:nth-child(3) > div > span").size["width"]
         learn_percent = driver.find_element_by_css_selector('#right > div.content > div > div:nth-child(6) > table > tbody > tr:nth-child(2) > td:nth-child(3) > span')
-        if learn_percent.text == '100.00%':
+        if learn_percent.text == '100.0%':
             print("学习结束")
             return False
         ttttt = (1-learn_width//10*10/100)*ttttt
